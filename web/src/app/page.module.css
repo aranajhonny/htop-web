@@ -1,0 +1,52 @@
+.App {
+  background-color: #000;
+  color: #33FF00;
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+  width: 60%;
+  height: 83vh;
+  margin: 10vh auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.h1, .h2 {
+  border-bottom: 1px solid #33FF00;
+  padding-bottom: 2px;
+  margin: 5px 0;
+}
+
+.h1 {
+  font-size: 1.1em;
+}
+
+.h2 {
+  font-size: 0.9em;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  margin: 3px 0;
+}
+
+.bar {
+  position: relative;
+  background-color: #333333;
+  width: 100%;
+  height: 12px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #33FF00;
+}
